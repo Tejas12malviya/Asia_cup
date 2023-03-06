@@ -34,7 +34,7 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 
-df=pd.read_csv('/home/tejas/Downloads/asiacup.csv')
+df=pd.read_csv('/home/tejas/Asia_cup/asiacup.csv')
 col1=['Opponent','Format','Selection','Avg Bat Strike Rate','Highest Score','Wicket Taken','Given Extras','Highest Individual wicket','Run Rate','Extras']
 df1=df.drop(col1,axis=1)
 Df=df1.head(10)
